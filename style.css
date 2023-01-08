@@ -99,7 +99,11 @@ body {
     text-decoration: underline;
 }
 
+/* About page */
+
 main p {
     margin: 20px;
     font-size: 20px;
 }
+
+/* recipes page */
