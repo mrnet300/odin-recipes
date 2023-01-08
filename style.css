@@ -75,7 +75,10 @@ body {
 .section__item {
     width: 20%;
     flex-wrap: wrap;
-    padding: 0 20px;
+}
+
+.section__item:first-child {
+    padding-left: 20px;
 }
 
 .section__item-title {
