@@ -66,8 +66,32 @@ body {
     border: 1px solid black;
 }
 
-.section__item {}
+.items {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 
-.section__item-title {}
+.section__item {
+    width: 20%;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
 
-.section__link {}
+.section__item-title {
+    margin: 10px 0;
+    color: black;
+}
+
+.section__item-description {
+    margin: 20px 0;
+
+}
+
+.section__link {
+    color: black;
+}
+
+.section__link:hover {
+    text-decoration: underline;
+}
