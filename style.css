@@ -112,12 +112,51 @@ main p {
     display: flex;
 }
 
-.ingridients__right {}
+.ingridients__right {
+    margin: 40px;
+}
 
 .section__item-title {
     font-weight: bold;
 }
 
+.--absolute {
+    position: absolute;
+    top: -10px;
+    left: 30px;
+
+}
+
 .container {
     display: flex;
+    position: relative;
+}
+
+.ingridients__left {
+    margin-right: 20px;
+    width: 30%;
+}
+
+.ingridients__title {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.ingridients__list {
+    font-size: 18px;
+}
+
+.ingredients__list-item {
+    margin: 15px 0;
+}
+
+.step {
+    text-transform: uppercase;
+}
+
+.step-description {
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 15px;
+
 }
