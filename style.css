@@ -98,3 +98,8 @@ body {
 .section__link:hover {
     text-decoration: underline;
 }
+
+main p {
+    margin: 20px;
+    font-size: 20px;
+}
