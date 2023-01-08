@@ -53,3 +53,21 @@ body {
 .nav__link:hover {
     text-decoration: underline;
 }
+
+/* Main section */
+
+.section {
+    width: 100%;
+    margin: 60px auto;
+}
+
+.section__title {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.section__item {}
+
+.section__item-title {}
+
+.section__link {}
