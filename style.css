@@ -107,3 +107,17 @@ main p {
 }
 
 /* recipes page */
+
+.ingridients {
+    display: flex;
+}
+
+.ingridients__right {}
+
+.section__item-title {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
