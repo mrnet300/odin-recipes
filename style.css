@@ -42,6 +42,7 @@ body {
 .nav__item {
     display: flex;
     margin: 20px;
+    list-style: none;
 }
 
 .nav__link a {
@@ -169,4 +170,9 @@ main p {
 
 .method {
     min-width: 900px;
+}
+
+span {
+    font-weight: bold;
+    list-style: none;
 }
