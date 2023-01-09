@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+
 }
 
 a {
@@ -130,11 +130,12 @@ main p {
 .container {
     display: flex;
     position: relative;
+    justify-content: space-between;
 }
 
 .ingridients__left {
     margin-right: 20px;
-    width: 30%;
+    min-width: 400px;
 }
 
 .ingridients__title {
@@ -159,4 +160,8 @@ main p {
     font-size: 18px;
     margin: 15px;
 
+}
+
+.method {
+    min-width: 900px;
 }
