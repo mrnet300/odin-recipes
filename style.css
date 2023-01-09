@@ -13,7 +13,7 @@ a {
 body {
     background-color: red;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 17px;
     color: white;
 }
 
@@ -85,11 +85,12 @@ body {
 .section__item-title {
     margin: 10px 0;
     color: black;
+    text-align: justify;
 }
 
 .section__item-description {
     margin: 20px 0;
-
+    text-align: justify;
 }
 
 .section__link {
@@ -131,6 +132,10 @@ main p {
 
 .--up {
     top: -24px;
+}
+
+.--up-more {
+    top: -35px;
 }
 
 .container {
